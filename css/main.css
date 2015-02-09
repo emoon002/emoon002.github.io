@@ -160,6 +160,10 @@ ul.enlarge li:hover:nth-child(1) span{
 right: -150px; 
 }
 
+ul.enlarge li:hover:nth-child(2) span{
+right: -150px; 
+}
+
 ul.enlarge span{
 /**Style the frame**/
 padding: 5px; /*size of the frame*/
