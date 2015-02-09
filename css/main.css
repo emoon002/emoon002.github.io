@@ -123,7 +123,7 @@ PAGE: PORTFOLIO;
 	margin: 0;
 	padding: 5%;
 	font-size: 1em;
-	color: #bdc3c7;
+	color: #AAB0B3;
 }
 
 #gallery p {
@@ -172,11 +172,6 @@ box-shadow: 0 0 20px rgba(0,0,0, .75);
 -webkit-border-radius: 8px;
 -moz-border-radius: 8px;
 border-radius:8px;
-/**Style the caption**/
-font-family: 'Droid Sans', sans-serif; /*Droid Sans is available from Google fonts*/
-font-size:.9em;
-text-align: center;
-color: #495a62;
 }
 
 /********************************
@@ -188,6 +183,11 @@ PAGE: ABOUT;
 	max-width: 150px;
 	margin: 0 auto 30px;
 	border-radius: 40px;
+}
+
+.p-about {
+	line-height: 1.5;
+	font-size: 1.125em;
 }
 
 /********************************
@@ -217,6 +217,12 @@ PAGE: CONTACT;
 }
 .contact-info li.twitter a {
 	background-image: url('../images/twitter.png');
+}
+
+#primary, 
+#secondary {
+	font-size: 1.125em;
+	line-height: 1.5;
 }
 
 /********************************
