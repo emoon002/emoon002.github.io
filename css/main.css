@@ -233,9 +233,10 @@ OVERLAY
 }
 
 #overlay img {
- margin-top: 10%;
- width: 80%;
- height: 80%;
+ margin-top: 5%;
+ margin-bottom: 5%;
+ width: 90%;
+ height: 90%;
 }
 
 #overlay p {
