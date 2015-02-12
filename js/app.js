@@ -11,7 +11,7 @@ $overlay.append($image);
 $overlay.append($caption);
 
 //Add overlay
-$('body').append($overlay);
+$('html').append($overlay);
 
 //Capture the click event on a link to an image
 $('#gallery a').click(function(){

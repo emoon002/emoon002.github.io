@@ -130,54 +130,6 @@ PAGE: PORTFOLIO;
 	text-align: center;
 }
 
-ul.enlarge span {
-	position: absolute;
-	left: -9999px;
-}
-
-ul.enlarge {
-	list-style-type: none;
-}
-
-ul.enlarge li {
-	display: inline-block;
-	position: relative;
-	z-index: 0;
-	margin: 10px 40px 0 20px;
-}
-
-ul.enlarge li:hover {
-	z-index: 50;
-	cursor: pointer;
-}
-
-ul.enlarge li:hover span {
-	top: -100px;
-	left: -20px;
-}
-
-ul.enlarge li:hover:nth-child(1) span{
-right: -150px; 
-}
-
-ul.enlarge li:hover:nth-child(2) span{
-right: -150px; 
-}
-
-ul.enlarge span{
-/**Style the frame**/
-padding: 5px; /*size of the frame*/
-background:#6ab47b; /*colour of the frame*/
-/*add a drop shadow to the frame*/
--webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
--moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
-box-shadow: 0 0 20px rgba(0,0,0, .75);
-/*give the corners a curve*/
--webkit-border-radius: 8px;
--moz-border-radius: 8px;
-border-radius:8px;
-}
-
 /********************************
 PAGE: ABOUT;
 *********************************/
