@@ -145,7 +145,7 @@ PAGE: PORTFOLIO;
 	height: 100%;
 	left: 0;
 	opacity: 0;
-	position: absolute;
+	/*position: absolute;*/
 	right: 0;
 	top: 0;
 	z-index: 100;
@@ -164,7 +164,6 @@ PAGE: PORTFOLIO;
 .photo-grid li:hover figcaption {
 	opacity: 1;
 }
-
 
 /*Zoom the images*/
 .photo-grid img {
@@ -209,7 +208,7 @@ PAGE: PORTFOLIO;
 	height: 100%;
 	left: 0;
 	opacity: 0;
-	position: absolute;
+	/*position: absolute;*/
 	right: 0;
 	top: 0;
 	-webkit-transition: all 300ms;
