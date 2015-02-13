@@ -34,4 +34,3 @@ $overlay.click(function(){
 	//Hide overlay
 	$overlay.hide();
 });
-	
