@@ -217,6 +217,15 @@ h1, h2 {
 	color: #fff;
 }
 
+#gallery li p.live-link {
+	color: #599a68;
+	font-weight: bold;
+}
+
+#gallery p.live-link:hover {
+	color: #32673f;
+}
+
 /********************************
 OVERLAY
 *********************************/

@@ -14,7 +14,7 @@ $overlay.append($caption);
 $('html').append($overlay);
 
 //Capture the click event on a link to an image
-$('#gallery a').click(function(){
+$('#gallery a .preview').click(function(){
 	event.preventDefault();
 	var imgLocation = $(this).attr("href");
 
