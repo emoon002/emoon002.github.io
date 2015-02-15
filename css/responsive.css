@@ -22,9 +22,9 @@
 		width: 28.3333%;
 	}
 
-	#gallery li:nth-child(4n) {
-		clear: left;
-	}
+	/*#gallery li:nth-child(4n) {
+		float: left;
+	}*/
 
 	/********************************
 	PAGE: ABOUT;
