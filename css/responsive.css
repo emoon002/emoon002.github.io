@@ -1,4 +1,4 @@
-@media screen and (min-width: 299px) {
+@media screen and (min-width: 299px) and (max-width: 479px) {
 	
 	/********************************
 	TWO COLUMN LAYOUT
@@ -15,22 +15,83 @@
 	}
 
 	/********************************
-	PAGE: PORTFOLIO;
+	TWO COLUMN LAYOUT - PORTFOLIO
+	*********************************/
+
+	#gallery li {
+		width: 40%;
+	}
+
+	#gallery li:nth-child(5n) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(7n) {
+		clear: left;
+	}
+}
+
+@media screen and (min-width: 418px) and (max-width: 462px) {
+	
+	/********************************
+	TWO COLUMN LAYOUT - PORTFOLIO
+	*********************************/
+
+	#gallery li {
+		width: 40%;
+	}
+
+	#gallery li:nth-child(3n) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(5n) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(6n) {
+		clear: right;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	
+	/********************************
+	TWO COLUMN LAYOUT - CONTACT
+	*********************************/
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+	/********************************
+	THREE COLUMN LAYOUT - PORTFOLIO
 	*********************************/
 
 	#gallery li {
 		width: 28.3333%;
 	}
 
-	/*#gallery li:nth-child(4n) {
-		float: left;
-	}*/
-}
+	#gallery li:nth-child(4n) {
+		clear: left;
+	}
 
-@media screen and (min-width: 420px) {
+	#gallery li:nth-child(7n) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(8n) {
+		clear: right;
+	}
+
 	/********************************
 	PAGE: ABOUT;
-	*********************************/
+	********************************/
 	
 	.profile-photo {
 		float: left;
