@@ -25,7 +25,9 @@
 	/*#gallery li:nth-child(4n) {
 		float: left;
 	}*/
+}
 
+@media screen and (min-width: 420px) {
 	/********************************
 	PAGE: ABOUT;
 	*********************************/
