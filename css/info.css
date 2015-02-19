@@ -1,0 +1,89 @@
+/********************************
+GALLERY
+*********************************/
+
+#info-gallery {
+	margin-left: 10%;
+}
+
+#thumbs { 
+	padding-top: 10px; 
+	overflow: hidden; 
+}
+
+#thumbs img, #largeImage {
+ border: 1px solid #6ab47b;
+ padding: 4px;
+ background-color: white;
+ cursor: pointer;
+}
+
+#thumbs img {
+ float: left;
+ margin-right: 6px;
+}
+
+#description {
+ background: rgba(0,0,0,0.8);
+ color: white;
+ position: absolute;
+ bottom: 0;
+ padding: 10px 20px;
+ width: 430px;
+ margin: 5px;
+}
+
+#panel { 
+	position: relative; 
+	clear: both;
+	width: 500px;
+	height: 300px;
+}
+
+/********************************
+SUMMARY
+*********************************/
+
+#summary {
+	float: right;
+	text-align: left;
+	width: 40%;
+	margin-right: 10%;
+	margin-top: -25%;
+}
+
+#summary h2 {
+	color: #6ab47b;
+	font-weight: bold;
+}
+
+#summary a:hover {
+	color: #32673f;
+}
+
+#summary #sum {
+	margin-bottom: 5%;
+}
+
+#summary li {
+	list-style: square;
+}
+
+#btn-view {
+	background: #FFF;
+	border-radius: 0;
+	border: solid #6ab47b 1px;
+	padding: 10px 20px;
+}
+
+#btn-view a {
+	font-family: 'Yanone Kaffeesatz', sans-serif; 
+	color: #6ab47b;
+	text-decoration: underline;
+}
+
+#tools {
+	float: right;
+	margin-top: -35.5%;
+	margin-right: 25%;
+}

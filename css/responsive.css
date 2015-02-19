@@ -1,4 +1,4 @@
-@media screen and (min-width: 299px) and (max-width: 479px) {
+@media screen and (min-width: 299px) and (max-width: 414px) {
 	
 	/********************************
 	TWO COLUMN LAYOUT
@@ -22,8 +22,16 @@
 		width: 40%;
 	}
 
+	#gallery li:nth-child(3n) {
+		clear: left;
+	}
+
 	#gallery li:nth-child(5n) {
 		clear: left;
+	}
+
+	#gallery li:nth-child(6n) {
+		clear: right;
 	}
 
 	#gallery li:nth-child(7n) {
@@ -31,7 +39,7 @@
 	}
 }
 
-@media screen and (min-width: 414px) and (max-width: 462px) {
+@media screen and (min-width: 415px) and (max-width: 463px) {
 	
 	/********************************
 	TWO COLUMN LAYOUT - PORTFOLIO
@@ -52,9 +60,13 @@
 	#gallery li:nth-child(6n) {
 		clear: right;
 	}
+
+	#gallery li:nth-child(7n) {
+		clear: left;
+	}
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 464px) {
 	
 	/********************************
 	TWO COLUMN LAYOUT - CONTACT
@@ -84,7 +96,7 @@
 	#gallery li:nth-child(7n) {
 		clear: left;
 	}
-
+	
 	#gallery li:nth-child(8n) {
 		clear: right;
 	}
@@ -99,7 +111,7 @@
 	}
 }
 
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 666px) {
 
 	/********************************
 	HEADER
@@ -133,5 +145,21 @@
 	header {
 		border-bottom: 5px solid #599a68;
 		margin-bottom: 60px;
+	}
+
+	#gallery li {
+		width: 28.3333%;
+	}
+
+	#gallery li:nth-child(4n) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(7n) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(8n) {
+		clear: right;
 	}
 }
