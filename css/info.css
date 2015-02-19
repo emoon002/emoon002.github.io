@@ -62,7 +62,7 @@ SUMMARY
 }
 
 #summary #sum {
-	margin-bottom: 5%;
+	margin-bottom: 8%;
 }
 
 #summary li {
@@ -82,8 +82,11 @@ SUMMARY
 	text-decoration: underline;
 }
 
+#features {
+	float: left;
+}
+
 #tools {
 	float: right;
-	margin-top: -35.5%;
 	margin-right: 25%;
 }
