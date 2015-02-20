@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Evan Moon | Web Developer</title>
+    	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+    	<link rel="stylesheet" type="text/css" href="../css/info.css">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="images/moon1.png" rel="icon" type="image/png">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="../index.html" id="logo">
+			<h1>Evan Moon</h1>
+			<h2>Web Developer</h2>
+			</a>
+			<nav>
+				<ul>
+					<li><a href="../index.html">Portfolio</a></li>
+					<li><a href="../about.html">About</a></li>
+					<li><a href="../contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="info-gallery">
+			<div id="panel">
+		        <img id="largeImage" src="../images/info/jspaint1_large.png" />
+		        <div id="description">Default Form Appearance</div>
+		    </div>
+		 
+		    <div id="thumbs">
+		        <img src="../images/info/jspaint1_thumb.png" alt="Default Canvas Appearance" />
+		        <img src="../images/info/jspaint2_thumb.png" alt="Selectable Color Palette" />
+		        <img src="../images/info/jspaint3_thumb.png" alt="Color Customization Sliders" />
+		        <img src="../images/info/jspaint4_thumb.png" alt="Newly Appended Color Demo" />
+		    </div>
+		</div>
+		<div id="summary">
+			<h2>JS-Paint</h2>
+			<p id="sum">I wanted to further explore jQuery's functionality by expanding on my previous project. I created an interactive
+			drawing application which used the HTML5 canvas element, as well as a custom div for the color input sliders using rgb values.
+			I used a simple unordered list to display the selectable colors, and to append new colors created by the user.<br><br>I used more advanced
+			jQuery methods such as .on(), .addClass(), .removeClass(), .siblings(), .css(), and .append() to flesh out the color
+			customization feature and learn more about DOM traversal. Additionally, I experimented with mouse events such as .click(), .mousedown(),
+			.mouseup(), .toggle(), and .mouseleave(), alongside HTML5's canvas methods such as .beginPath(), .moveTo(), .lineTo(), and .stroke() to 
+			implement the drawing functionality.
+			</p>
+			<div id="features">
+				<h2>Website Features:</h2>
+				<ul>
+					<li>HTML5 Canvas</li>
+					<li>Selectable Color Palette</li>
+					<li>Color Customization using RGB values</li>
+				</ul>
+				<button type="button" id="btn-view"><a href="http://emoon002.github.io/drawapp/">View Live</a></button>
+			</div>
+			<div id="tools">
+				<h2>Languages and Tools:</h2>
+				<ul>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>jQuery</li>
+				</ul>
+			</div>
+		</div>
+			<footer>
+				<a href="http://twitter.com/emoon002">
+				<img src="../images/twitter-wrap.png" alt="Twitter Logo" class="social-icon">
+				</a>
+				<a href="http://linkedin.com/in/emoon002">
+				<img src="../images/linkedin.png" alt="LinkedIn Logo" class="social-icon">
+				</a>
+				<a href="https://github.com/emoon002">
+				<img src="../images/github.png" alt="GitHub Logo" class="social-icon">
+				</a>
+				<p>&copy; 2015 Evan Moon.</p>
+			</footer>
+		</div>
+		<script src="../js/info.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
