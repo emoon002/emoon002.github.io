@@ -3,14 +3,16 @@ GALLERY
 *********************************/
 
 #info-gallery {
-	margin-left: 10%;
-	width: 600px;
-	height: 600px;
+	width: 50%;
+	height: 100%;
+    float: left;
+    margin-left: 5%;
 }
 
 #thumbs { 
 	padding-top: 10px; 
-	overflow: hidden; 
+	overflow: hidden;
+    width: 80%;
 }
 
 #thumbs img, #largeImage {
@@ -50,8 +52,8 @@ SUMMARY
 	float: right;
 	text-align: left;
 	width: 40%;
-	margin-right: 10%;
-	margin-top: -25%;
+    height: 100%;
+    margin-right: 5%;
 }
 
 #summary h2 {
