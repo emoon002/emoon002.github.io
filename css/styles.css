@@ -3,9 +3,9 @@ GENERAL
 *********************************/
 
 #wrapper {
-	max-width: 1280px;
+	width: 90%;
+    height: 80%;
 	margin: 0 auto;
-	padding: 0 5%;
 }
 
 #about {

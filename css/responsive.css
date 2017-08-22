@@ -37,6 +37,14 @@
 	#gallery li:nth-child(7n) {
 		clear: left;
 	}
+    
+    #gallery li:nth-child(10n) {
+		clear: right;
+	}
+    
+    header {
+        height: 151px;
+    }
 }
 
 @media screen and (min-width: 415px) and (max-width: 463px) {
@@ -64,6 +72,14 @@
 	#gallery li:nth-child(7n) {
 		clear: left;
 	}
+    
+    #gallery li:nth-child(10n) {
+		clear: right;
+	}
+    
+    header {
+        height: 151px;
+    }
 }
 
 @media screen and (min-width: 464px) {
@@ -100,6 +116,10 @@
 	#gallery li:nth-child(8n) {
 		clear: right;
 	}
+    
+    #gallery li:nth-child(10n) {
+		clear: left;
+	}
 
 	/********************************
 	PAGE: ABOUT;
@@ -121,7 +141,7 @@
 		background: none;
 		float: right;
 		font-size: 2em;
-		margin-right: 5%;
+		margin: 20px 5% 0 0;
 		text-align: right;
 		width: 45%;
 	}
